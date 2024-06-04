@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../output.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Google Fonts Barlow Semi Condensed CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts Roboto CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts Barlow Condensed CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+    <title>Krystal's Portfolio Page</title>
+  </head>
+
+  <body class="bg-old-rose">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+
+      <header>
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <div class="text-center flex flex-col sm:flex sm:items-center sm:justify-between">
+            <div class="font-barlow font-thin text-xl text-gray-100 text-opacity-50">
+              <button type="button" onclick="location.href='/src/html/aboutme.html'" class="px-4 py-2 hover:text-gray-100">ABOUT ME</button>
+              <button type="button" onclick="location.href='/src/html/skills.html'" class="px-4 py-2 hover:text-gray-100">SKILLS</button>
+              <button type="button" onclick="location.href='/src/html/resume.html'" class="px-4 py-2 hover:text-gray-100">EXPERIENCE</button>
+              <button type="button" onclick="location.href='/src/html/projects.html'" class="px-4 py-2 hover:text-gray-100">PROJECTS</button>
+              <a type="button" href="mailto:kongyangma0917@gmail.com" class="px-4 py-2 hover:text-gray-100">CONTACT</button>
+            </div>
+          </div>
+
+          <div>
+            <a href="../index.html" class="font-barlow font-thin text-xl text-gray-100 text-opacity-50">
+              <button type="button" onclick="location.href='../index.html'" class="px-4 py-2 hover:text-gray-100">HOME</button>
+              <!-- <img src="../image/cute_dog.jpg" class="relative mx-auto rounded-2xl overflow-hidden" alt="logo image" width="100" height="100"> -->
+            </a>
+          </div>
+
+        </div>
+      </header>
+
+
+      <main>
+        <!-- Title -->
+        <div class="font-barlow font-normal text-4xl text-gray-100 text-opacity-70">
+          <h2 class="px-4 py-2">WORK EXPERIENCE</h2>
+        </div>
+
+        <div class="-my-6 flex flex-col sm:flex sm:items-center sm:justify-between py-10">
+          <!-- Item #1 -->
+          <div class="relative pl-8 sm:pl-32 py-10 hover:bg-silk-brown group">
+              <!-- Purple label -->
+              <!-- <div class="font-caveat font-medium text-2xl text-indigo-500 mb-1 sm:mb-0">The origin</div> -->
+              <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
+              <!-- <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5"> -->
+              <div class="flex flex-col sm:flex-row items-start mb-3">  
+                  <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-sm font-roboto font-normal uppercase w-28 h-6 mb-6 sm:mb-0 text-gray-100 rounded-full">JAN - APR 2020</time>
+                  <div class="text-xl font-roboto font-normal text-gray-100">QA Analyst Intern · Goopter Holdings Ltd.</div>
+              </div>
+              <!-- Content -->
+              <div class="text-gray-300">
+                <ul class="text-gray-300 list-disc list-inside dark:text-gray-400">
+                  <li>Managed and executed test processes, analyzed, oversaw, managed and executed the entire software
+                    testing cycle for UI features from system specification requirements gathering and development of test cases
+                    to documentation and test execution
+                  </li>
+                  <li>Executed manual testing by writing tests, run functional, non-functional and usability testing on desktop and
+                    mobile devices
+                  </li>
+                  <li> Designed and prepared test data to validate the scenarios according to business requirements, developed
+                    and tested positive and negative test cases
+                  </li>
+                  <li>Collaborated and led efforts to coordinate with engineers for requirements analysis, design reviews, testing
+                    and documentation in order o maintain a high standard for user experience quality
+                  </li>
+                </ul>
+              </div>
+              <!-- Tech stack buttons -->
+          </div>
+          
+          <!-- Item #2 -->
+          <div class="relative pl-8 sm:pl-32 py-6 hover:bg-silk-brown group">
+              <!-- Purple label -->
+              <!-- <div class="font-caveat font-medium text-2xl text-indigo-500 mb-1 sm:mb-0">The milestone</div> -->
+              <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
+              <!-- <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5"> -->
+              <div class="flex flex-col sm:flex-row items-start mb-3">   
+                  <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-sm font-roboto font-normal uppercase w-28 h-6 mb-6 sm:mb-0 text-gray-100 rounded-full">APR - DEC 2020</time>
+                  <div class="text-xl font-roboto font-normal text-gray-100">Web Application Developer · Goopter Holdings Ltd.</div>
+              </div>
+              <!-- Content -->
+              <div class="text-gray-300">
+                <ul class="text-gray-300 list-disc list-inside dark:text-gray-400">
+                  <li>Designed, delivered and tested new UI features such as logging window, uploading documents using
+                    Javascript, React, Node.js, Express, MongoDB(MERN stack) and Git</li>
+                  <li>Maintained and improved the codebase, e.g. correcting existing problems and improving performance</li>
+                  <li>Use Ant Design as the solution for UI interfaces</li>
+                  <li>Debugged and resolved 20+ RESTful API and UI issues using Postman and Chrome devTools</li>
+                  <li>Re-designed some UI interfaces of company websites, created smoother user flow, resulting in reducing
+                    negative customer feedback by 20% and 30% higher customer satisfactions</li>
+                </ul>
+              </div>
+          </div>
+          
+          <!-- Item #3 -->
+          <div class="relative pl-8 sm:pl-32 py-6 hover:bg-silk-brown group">
+              <!-- Purple label -->
+              <!-- <div class="font-caveat font-medium text-2xl text-indigo-500 mb-1 sm:mb-0">The acquisitions</div> -->
+              <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
+              <!-- <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5"> -->
+              <div class="flex flex-col sm:flex-row items-start mb-3">    
+                  <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-sm font-roboto font-normal uppercase w-28 h-6 mb-6 sm:mb-0 text-dust-green rounded-full">JAN 2024 - PRESENT</time>
+                  <div class="text-xl font-roboto font-normal text-gray-100">Software Development Engineer · Oakscholar LLC</div>
+              </div>
+              <!-- Content -->
+              <div class="text-gray-300">
+                <ul class="text-gray-300 list-disc list-inside dark:text-gray-400">
+                  <li>Designed, delivered and tested new UI features such as logging window, uploading documents using
+                    Javascript, React, Node.js, Express, MongoDB(MERN stack) and Git</li>
+                  <li>Maintained and improved the codebase, e.g. correcting existing problems and improving performance</li>
+                  <li>Use Ant Design as the solution for UI interfaces</li>
+                </ul>
+              </div>
+
+              
+          </div>
+
+          <!-- View Full Resume Button -->
+          <div class="py-10">
+            <button class="font-barlow font-thin text-xl text-gray-100 text-opacity-50 px-6 py-6 hover:text-gray-100">VIEW FULL RESUME</button>
+          </div>
+      
+        </div>
+      </main>
+
+      <footer>
+      </footer>
+    
+    </div>
+  <script type="text/javascript" src="../src/js/app.js"></script>
+  </body>
+</html>
+
